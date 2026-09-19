@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solvevia™ - Pet Hair Remover</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; background: #f9f9f9; }
+    nav { background: #ff8c00; color: white; padding: 1rem; display: flex; justify-content: space-between; }
+    nav a { color: white; text-decoration: none; margin: 0 1rem; }
+    .hero { background: linear-gradient(to bottom, #ffe4cc, #fff); padding: 3rem; text-align: center; }
+    .hero h1 { font-size: 2.5rem; color: #333; margin: 1rem 0; }
+    .hero p { font-size: 1.2rem; color: #666; }
+    .product { font-size: 5rem; margin: 2rem 0; }
+    .price { font-size: 2rem; color: #ff8c00; font-weight: bold; margin: 1rem 0; }
+    button { background: #ff8c00; color: white; border: none; padding: 1rem 2rem; font-size: 1rem; cursor: pointer; border-radius: 5px; }
+    button:hover { background: #e67e00; }
+    .benefits { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem; padding: 3rem; max-width: 1200px; margin: 0 auto; }
+    .benefit { background: white; padding: 2rem; text-align: center; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .benefit-emoji { font-size: 3rem; margin: 1rem 0; }
+  </style>
+</head>
+<body>
+  <nav>
+    <div style="font-weight: bold; font-size: 1.5rem;">🐕 Solvevia™</div>
+    <div>
+      <a href="#products">Products</a>
+      <a href="#cart">Cart</a>
+      <a href="#profile">Profile</a>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <h1>Solvevia™ Pet Hair Remover</h1>
+    <p>Less Fur. Less Mess. Happier Pets.</p>
+    <div class="product">🐕</div>
+    <div class="price">$19.99</div>
+    <button onclick="alert('Added to cart!')">Add to Cart</button>
+  </div>
+
+  <div class="benefits">
+    <div class="benefit">
+      <div class="benefit-emoji">🐕</div>
+      <h3>Removes Loose Fur</h3>
+    </div>
+    <div class="benefit">
+      <div class="benefit-emoji">🧼</div>
+      <h3>Easy to Clean</h3>
+    </div>
+    <div class="benefit">
+      <div class="benefit-emoji">✋</div>
+      <h3>Comfortable Use</h3>
+    </div>
+    <div class="benefit">
+      <div class="benefit-emoji">🏠</div>
+      <h3>Less Hair Around</h3>
+    </div>
+  </div>
+</body>
+</html>
